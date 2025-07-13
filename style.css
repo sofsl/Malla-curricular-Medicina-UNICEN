@@ -54,3 +54,18 @@ h1 {
   cursor: not-allowed;
   filter: grayscale(40%);
 }
+.boton-reset {
+  display: block;
+  margin: 0 auto 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.boton-reset:hover {
+  background-color: #08306b;
+}
