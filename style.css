@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background-color: #fdfdfd;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.materia {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.materia.habilitada {
+  opacity: 1;
+  border-color: #4caf50;
+}
+.materia.aprobada {
+  background-color: #d4edda;
+  border-color: #2e7d32;
+}
+.materia h3 {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
