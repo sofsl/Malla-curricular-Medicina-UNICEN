@@ -39,6 +39,7 @@ h1 {
   background-color: #64b5f6;
   border-color: #1976d2;
   color: white;
+  font-weight: bold;
 }
 .materia h3 {
   margin: 0.3rem 0;
@@ -47,4 +48,9 @@ h1 {
 .materia p {
   font-size: 0.9rem;
   margin: 0;
+}
+.materia.bloqueada {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(40%);
 }
