@@ -100,28 +100,36 @@ const materias = [
     "nombre": "Microbiología I",
     "semestre": 3,
     "creditos": 6,
-    "prereq": ["med912"]
+    "prereq": [
+      "med912"
+    ]
   },
   {
     "id": "med931",
     "nombre": "Bioquímica I",
     "semestre": 3,
     "creditos": 6,
-    "prereq": ["med922"]
+    "prereq": [
+      "med922"
+    ]
   },
   {
     "id": "med932",
     "nombre": "Fisiología I",
     "semestre": 3,
     "creditos": 8,
-    "prereq": ["med921"]
+    "prereq": [
+      "med921"
+    ]
   },
   {
     "id": "med934",
     "nombre": "Patología I",
     "semestre": 3,
     "creditos": 6,
-    "prereq": ["med924"]
+    "prereq": [
+      "med924"
+    ]
   },
   {
     "id": "med935",
@@ -140,7 +148,9 @@ const materias = [
     "nombre": "Inglés III",
     "semestre": 3,
     "creditos": 3,
-    "prereq": ["dac422"]
+    "prereq": [
+      "dac422"
+    ]
   }
   {
     "id": "med944",
