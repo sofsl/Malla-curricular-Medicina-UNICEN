@@ -33,7 +33,8 @@ function renderMaterias() {
         div.classList.add('aprobada');
       } else if (!habilitada) {
         div.classList.add('bloqueada');
-      } else {
+      } 
+      if (habilitada) {
         div.addEventListener('click', () => toggleMateria(materia.id));
       }
 
