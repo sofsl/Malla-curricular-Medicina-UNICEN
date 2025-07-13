@@ -32,11 +32,11 @@ function renderMaterias() {
       if (aprobadas.includes(materia.id)) {
         div.classList.add('aprobada');
       } else if (!habilitada) {
-        div.style.opacity = 0.5;
-        div.style.pointerEvents = 'none';
+        div.classList.add('bloqueada');
+      } else {
+        div.addEventListener('click', () => toggleMateria(materia.id));
       }
 
-      div.addEventListener('click', () => toggleMateria(materia.id));
       grid.appendChild(div);
     });
 
@@ -57,3 +57,8 @@ function toggleMateria(id) {
 }
 
 renderMaterias();
+
+document.getElementById('resetear').addEventListener('click', () => {
+  localStorage.removeItem('aprobadas');
+  renderMaterias();
+});
