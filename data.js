@@ -151,7 +151,7 @@ const materias = [
     "prereq": [
       "dac422"
     ]
-  }
+  },
   {
     "id": "med944",
     "nombre": "Microbiología II",
